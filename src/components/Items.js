@@ -21,7 +21,7 @@ const Items = () => {
     }
 
   return (
-    <div className='mt-6 p-2 sm:mt-8 sm:px-12 sm:py-2 w-[100%]  flex-col gap-4'>
+    <div className='mt-6 p-2 md:mt-8 md:px-12 md:py-2 w-[100%]  flex-col gap-4'>
        
        {allTasks.map((task)=>{
         return <Item id={task.id} name={task.name} completed={task.completed}/>

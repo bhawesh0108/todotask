@@ -28,7 +28,7 @@ const Form = () => {
   }
 
   return (
-    <div className='p-2 flex flex-col gap-2 w-[100%] sm:px-12 sm:py-2'>
+    <div className='p-2 flex flex-col gap-2 w-[100%] md:px-12 md:py-2'>
         <input value={val} onChange={handleInputChange} className='border border-slate-200 py-3 px-4 rounded-lg' type = "text" placeholder='Type Something' />
         <button onClick={handleSubmit} className='bg-black text-white py-3 text-center rounded-lg font-bold'>Add Task</button>
     </div>

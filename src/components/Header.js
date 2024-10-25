@@ -41,13 +41,13 @@ const Header = () => {
  }
 
   return (
-    <div className='p-2 flex flex-col gap-2 sm:flex sm:flex-row sm:justify-between sm:px-12 sm:py-2 sm:w-[100%]'>
-        <div className='w-[100%] text-left sm:w-[10%]'>
+    <div className='p-2 flex flex-col gap-2 md:flex md:flex-row md:justify-between md:px-12 md:py-2 md:w-[100%]'>
+        <div className='w-[100%] text-left md:w-[10%]'>
             <h1 className='font-bold text-3xl'>Today</h1>
         </div>
-        <div className='relative mb-2 w-[100%] sm:w-[55%] sm:relative'>
-            <input value={search} onChange={handleChange} className='w-[100%] border border-slate-200 py-2 px-4 rounded-full sm:w-[80%]' type="text" placeholder='Search'/>
-            {search?<div className="bg-gray-100 flex flex-col w-[100%] sm:w-[80%] rounded-md border-2 border-slate-100 py-2 h-auto sm:mx-12 absolute z-100">
+        <div className='relative mb-2 w-[100%] md:w-[55%] md:relative'>
+            <input value={search} onChange={handleChange} className='w-[100%] border border-slate-200 py-2 px-4 rounded-full md:w-[80%]' type="text" placeholder='Search'/>
+            {search?<div className="bg-gray-100 flex flex-col w-[100%] md:w-[80%] rounded-md border-2 border-slate-100 py-2 h-auto  md:mx-12 absolute z-100">
         
            {searchedTasks.map((task)=>{
              return(<div className= 'border-2 border-b-slate px-2 py-4 flex items-center gap-2 pb-3'>
